@@ -7,7 +7,7 @@ body {
 
 .tutorial{  font-size: 16px; }
 
-.tutorial p{ margin-bottom: 30px; line-height: 24px; }
+.tutorial p{ margin-top: 30px; line-height: 24px; }
 
 .tutorial h2{ color: #00abc5; margin-bottom: 30px; position: relative; display: block; }
 
@@ -525,3 +525,10 @@ h3.module-section-description {
 .module-background .module-section .module-c2a a:hover {
     background-color: #0a9e82;
     text-decoration: none; }
+
+.secondary-blue-text{
+    color: #00abc5;
+    margin-bottom: 30px;
+    position: relative;
+    display: block;
+}

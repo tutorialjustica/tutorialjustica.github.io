@@ -1,8 +1,3 @@
-<?php
-$url= 'http://ckandev.northeurope.cloudapp.azure.com';
-$urlPath = '/api/action/datastore_search';
-?>
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -42,7 +37,7 @@ $urlPath = '/api/action/datastore_search';
 
                     <h2 class="blue-text">Visualizações Simples</h2>
 
-                    <h3>Charts</h3>
+                    <h3 id="charts">Charts</h3>
 
                     <p>● Inserir a API do CKAN (JSON)</p>
                     <pre><code class="language-php">$url= 'http://ckandev.northeurope.cloudapp.azure.com';
@@ -103,7 +98,7 @@ var graphData = {
     }
 });</code></pre>
 
-                    <h3>Google Maps</h3>
+                    <h3 id="googlemaps">Google Maps</h3>
 
                     <p>● Incluir as libraries <a href="https://code.jquery.com" target="_blank">JQuery</a>, <a href="https://developers.google.com/maps" target="_blank">Google API</a> e
                         <a href="https://developers.google.com/maps/documentation/javascript/marker-clustering" target="_blank">Marker Clustering</a></p>
@@ -263,7 +258,7 @@ function addMarker(d, map){
     });
 }</code></pre>
 
-                    <h2 class="blue-text">Boas Práticas por tipos de dados</h2>
+                    <h3 id="boaspraticas">Boas Práticas por tipos de dados</h3>
 
                     <p>● Quando deve ser usado um gráfico de barras</p>
                     <p>Lorem Ipsum</p>
@@ -278,11 +273,9 @@ function addMarker(d, map){
                  <div class="col-sm-3 col-xs-12">
                       <div class="sidebar">
                           <ul>
-                              <li class="active"><a>Menu Item1</a></li>
-                              <li><a>Menu Item 2</a></li>
-                              <li><a>Menu Item 3</a></li>
-                              <li><a>Menu Item 4</a></li>
-                              <li><a>Menu Item 5</a></li>
+                              <li class="active"><a>Charts</a></li>
+                              <li><a>Google Maps</a></li>
+                              <li><a>Boas Práticas</a></li>
                           </ul>
                       </div>
                  </div>

@@ -1,6 +1,7 @@
 
 body {
     font-family:"Open sans", sans-serif;
+    position: relative;
 }
 
 /* <tutorial> */
@@ -186,31 +187,6 @@ body {
     padding: 7px 20px;
     margin: 50px 15px;
 }
-
-.footer{
-    background: #333;
-    color: #fff;
-    padding: 50px 0 0;
-    font-size: 40px;
-}
-
-.footer h2{
-    color: #f0b21d;
-    line-height: 14px;
-    margin: 0;
-}
-
-.footer .copyright{
-    margin-top: 20px;
-    border-top: 1px solid #eee;
-    padding: 30px 0;
-}
-
-.footer .copyright *{
-    font-size: 12px;
-    color: #eee;
-}
-
 
 .cadernos .module-block-title{
     font-size: 27px;
@@ -532,3 +508,19 @@ h3.module-section-description {
     position: relative;
     display: block;
 }
+
+.affix{ top: 20px; z-index: 9999 !important; }
+
+.nav>li>a:focus, .nav>li>a:hover{ background-color: #fff; }
+
+.h3, h3{ font-size: 26px; font-weight: 500; }
+
+.chapter-title{ font-weight: 600; }
+
+.text-indent{ text-indent: 30px; }
+
+footer{ background: #535353; padding: 25px 0; color: #fff; margin-top: 30px; }
+
+.footer_bottom .left-side a img{ margin: 0; padding: 0; border: 0; vertical-align: baseline; }
+
+.footer_bottom .right-side a img{ max-width: 140px; width: 100%; height: auto; vertical-align: middle; }

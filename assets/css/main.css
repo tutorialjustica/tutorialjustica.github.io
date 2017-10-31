@@ -522,3 +522,9 @@ footer{ background: #535353; padding: 25px 0; color: #fff; margin-top: 30px; }
 .footer_bottom .left-side a img{ margin: 0; padding: 0; border: 0; vertical-align: baseline; }
 
 .footer_bottom .right-side a img{ max-width: 140px; width: 100%; height: auto; vertical-align: middle; }
+
+.navbar-brand{ padding: 9px 15px; }
+
+.navbar-brand>img{ max-width: 193px; }
+
+.navbar{ margin-bottom: 0; border: none; }

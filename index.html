@@ -6,8 +6,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>partilha.justica.gov.pt – Tutorial</title>
-        <meta name="description" content="">
+        <title>dados.justica.gov.pt – Tutorial</title>
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <meta name="description" content="Tutorial que pretende demonstrar como usar os dados disponibilizados no site dados.justica.gov.pt">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
@@ -21,6 +22,17 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js" integrity="sha256-VNbX9NjQNRW+Bk02G/RO6WiTKuhncWI4Ey7LkSbE+5s=" crossorigin="anonymous"></script>
     </head>
     <body data-spy="scroll" data-target="#menu" data-offset="10">
+
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="https://dados.justica.gov.pt" target="_blank">
+                        <img src="assets/images/dados_justicagovpt.png" alt="dados.justiça.gov.pt" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+        </nav>
+
         <section class="tutorial">
             <div class="blue-header">
                 <div class="container">
@@ -32,7 +44,7 @@
                 <div class="col-sm-9 col-xs-12">
 
                     <h2>Introdução</h2>
-                    <p>Com este tutorial pretende-se demonstrar como usar os dados disponíveis no site <a href="https://partilha.justica.gov.pt" target="_blank">partilha.justica.gov.pt</a>.</p>
+                    <p>Com este tutorial pretende-se demonstrar como usar os dados disponíveis no site <a href="https://dados.justica.gov.pt" target="_blank">dados.justica.gov.pt</a>.</p>
                     <p>Irão ser mostrados alguns exemplos de como criar visualizações de dados (gráficos) através de alguma tecnologias open-source em formato aberto (XML, CSV e JSON).</p>
 
                     <h2 class="blue-text">Visualizações Simples</h2>
@@ -294,6 +306,8 @@ function addMarker(d, map){
                     <p class="chapter-title">&rsaquo; Quando deve ser usado um gráfico que cruze informação de vários datasets</p>
                     <p>Este tipo de gráficos devem ser usados quando os conjuntos de dados inseridos necessitam de ser divididos para que possam ser comparados uns com os outros.</p>
                     <p>Um bom exemplo seria se estivéssemos a tentar mostrar o crescimento da população ao longo do tempo por região. Seria mais apropriado para esse tipo de dados, pois está a tentar comparar vários conjuntos de dados. Estes gráficos são codificados por cores e têm uma aparência ordenada e clara, que permitem ver vários conjuntos de dados de forma correcta.</p>
+                    <p>Um exemplo real utilizando <a href="https://partilha.justica.gov.pt/Transparencia/Dados-e-Estatisticas/-Medidas-concluidas-vs-execucao-do-Plano-Justica-mais-Proxima" target="_blank">estes dados</a>:</p>
+                    <img src="assets/images/grafico_exemplo.png" class="img-responsive center-block">
 
                 </div>
 

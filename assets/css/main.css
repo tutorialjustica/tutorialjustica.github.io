@@ -528,3 +528,9 @@ footer{ background: #535353; padding: 25px 0; color: #fff; margin-top: 30px; }
 .navbar-brand>img{ max-width: 193px; }
 
 .navbar{ margin-bottom: 0; border: none; }
+
+#menu{ display: none; }
+
+@media (min-width: 768px){
+    #menu{ display: block; }
+}
